@@ -80,6 +80,11 @@ install the default configuration from this repo:
 cd /opt/boxen/repo
 ./script/boxen
 ```
+Warning: When running in a virtual machine you may encounter an error due to the serial number if it included special characters. You can configure the serial number of your virtual machine by adding a line in your .vmx file
+```
+serialNumber = "SERIAL-NUMBER"
+```
+Source: http://www.virtuallyghetto.com/2015/04/quick-tip-how-to-change-serial-number-for-mac-os-x-vm.html
 
 ### Distributing
 
